@@ -6,7 +6,8 @@
     "cz-emoji": "1.3.2"
   },
   "scripts": {
-    "cz": "git cz"
+    "cz": "git cz",
+    "dev-build": "webpack --config ./webpack.dev.js"
   },
   "config": {
     "commitizen": {
